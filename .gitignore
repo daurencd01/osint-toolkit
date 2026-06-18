@@ -1,0 +1,17 @@
+# Результаты сканов — не коммитим (могут содержать чувствительные данные)
+osint-results/
+results/
+*.png
+*.pdf
+*.html
+
+# API-ключи — НИКОГДА не коммитим
+.osint.conf
+*.conf
+.env
+
+# Системное
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
